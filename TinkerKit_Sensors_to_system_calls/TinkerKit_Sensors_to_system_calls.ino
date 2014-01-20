@@ -5,11 +5,9 @@
  Read temperature from the T00020 Thermistor Module connected to I0.
  Prints the values on the serial monitor.
  Save the values in a log file using Intel Galileo Linux system calls
+ 
  created 20 Jan. 2014
- by Mauro Mezzenzana created 20 Jan. 2014
- by Mauro Mezzenzana
- created 20 Jan. 2014
- by Mauro Mezzenzana
+ by Mauro Mezzenzana 
 
  Created using code from Tinkerkit library example LightSensor
  created 29 Dec. 2008
