@@ -19,7 +19,7 @@ void setup() {
   system("echo 'my_http = require(\"http\");' >> myScript.js");
   system("echo 'my_http.createServer(function(request,response){' >> myScript.js");
   system("echo sys.puts(\"Galileo server start\"); >> myScript.js");
-  system("echo 'response.writeHeader(200, {\"Content-Type: text/plain\"});' >> myScript.js");
+  system("echo 'response.writeHeader(200, {\"Content-Type\": \"text/plain\"});' >> myScript.js");
   system("echo 'response.write(\"Hello Galileo\");' >> myScript.js");
   system("echo 'response.end();' >> myScript.js");
   system("echo '}).listen(8080);' >> myScript.js");
